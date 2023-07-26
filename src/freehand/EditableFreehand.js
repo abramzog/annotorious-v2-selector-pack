@@ -1,7 +1,7 @@
-import EditableShape from '@recogito/annotorious/src/tools/EditableShape';
-import { drawEmbeddedSVG, svgFragmentToShape, toSVGTarget } from '@recogito/annotorious/src/selectors/EmbeddedSVG';
-import { SVG_NAMESPACE } from '@recogito/annotorious/src/util/SVG';
-import { format, setFormatterElSize } from '@recogito/annotorious/src/util/Formatting';
+import EditableShape from '@abramzog/annotorious/src/tools/EditableShape';
+import { drawEmbeddedSVG, svgFragmentToShape, toSVGTarget } from '@abramzog/annotorious/src/selectors/EmbeddedSVG';
+import { SVG_NAMESPACE } from '@abramzog/annotorious/src/util/SVG';
+import { format, setFormatterElSize } from '@abramzog/annotorious/src/util/Formatting';
 // TODO optional: mask to dim the outside area
 //import Mask from './FreehandMask';
 

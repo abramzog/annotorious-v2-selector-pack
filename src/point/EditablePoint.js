@@ -1,6 +1,6 @@
-import EditableShape from '@recogito/annotorious/src/tools/EditableShape';
-import { parseRectFragment } from '@recogito/annotorious/src/selectors/RectFragment';
-import { SVG_NAMESPACE } from '@recogito/annotorious/src/util/SVG';
+import EditableShape from '@abramzog/annotorious/src/tools/EditableShape';
+import { parseRectFragment } from '@abramzog/annotorious/src/selectors/RectFragment';
+import { SVG_NAMESPACE } from '@abramzog/annotorious/src/util/SVG';
 import { toFragment } from './Point';
 
 export default class EditablePoint extends EditableShape {

@@ -16,11 +16,11 @@ Include the plugin in your page directl from the CDN:
 <html>
   <head>
     <!-- Annotorious first -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@recogito/annotorious@latest/dist/annotorious.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious@latest/dist/annotorious.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@abramzog/annotorious@latest/dist/annotorious.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@abramzog/annotorious@latest/dist/annotorious.min.js"></script>
 
     <!-- Selector Pack plugin -->
-    <script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious-selector-pack@latest/dist/annotorious-selector-pack.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@abramzog/annotorious-selector-pack@latest/dist/annotorious-selector-pack.min.js"></script>
   </head>
 
   <body>
@@ -57,7 +57,7 @@ Annotorious.SelectorPack(anno, {
 ```
 ## Installation  with npm
 ```
-npm i @recogito/annotorious-selector-pack
+npm i @abramzog/annotorious-selector-pack
 
 ```
 

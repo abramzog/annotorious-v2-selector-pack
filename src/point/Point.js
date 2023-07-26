@@ -1,4 +1,4 @@
-import { toRectFragment } from '@recogito/annotorious/src/selectors/RectFragment';
+import { toRectFragment } from '@abramzog/annotorious/src/selectors/RectFragment';
 
 export const isPoint = annotation =>
   annotation.target.renderedVia?.name === 'point';

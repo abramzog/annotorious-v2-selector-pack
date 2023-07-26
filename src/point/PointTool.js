@@ -1,4 +1,4 @@
-import Tool, { Selection } from '@recogito/annotorious/src/tools/Tool';
+import Tool, { Selection } from '@abramzog/annotorious/src/tools/Tool';
 import EditablePoint from './EditablePoint';
 import { toFragment, isPoint } from './Point';
 

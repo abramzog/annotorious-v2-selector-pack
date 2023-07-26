@@ -1,4 +1,4 @@
-import Tool from '@recogito/annotorious/src/tools/Tool';
+import Tool from '@abramzog/annotorious/src/tools/Tool';
 import RubberbandEllipse from './RubberbandEllipse';
 import EditableEllipse from './EditableEllipse';
 

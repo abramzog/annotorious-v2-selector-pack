@@ -1,7 +1,7 @@
-import { Selection } from '@recogito/annotorious/src/tools/Tool';
-import { toSVGTarget } from '@recogito/annotorious/src/selectors/EmbeddedSVG';
-import { SVG_NAMESPACE } from '@recogito/annotorious/src/util/SVG';
-import Mask from '@recogito/annotorious/src/tools/polygon/PolygonMask';
+import { Selection } from '@abramzog/annotorious/src/tools/Tool';
+import { toSVGTarget } from '@abramzog/annotorious/src/selectors/EmbeddedSVG';
+import { SVG_NAMESPACE } from '@abramzog/annotorious/src/util/SVG';
+import Mask from '@abramzog/annotorious/src/tools/polygon/PolygonMask';
 
 // TODO optional: mask to dim the outside area
 //import Mask from './multipolygonMask';

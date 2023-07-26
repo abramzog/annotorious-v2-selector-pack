@@ -1,6 +1,6 @@
-import { Selection } from '@recogito/annotorious/src/tools/Tool';
-import { toSVGTarget } from '@recogito/annotorious/src/selectors/EmbeddedSVG';
-import { SVG_NAMESPACE } from '@recogito/annotorious/src/util/SVG';
+import { Selection } from '@abramzog/annotorious/src/tools/Tool';
+import { toSVGTarget } from '@abramzog/annotorious/src/selectors/EmbeddedSVG';
+import { SVG_NAMESPACE } from '@abramzog/annotorious/src/util/SVG';
 import Mask from './LineMask';
 
 

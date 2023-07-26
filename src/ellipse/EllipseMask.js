@@ -1,4 +1,4 @@
-import { SVG_NAMESPACE } from '@recogito/annotorious/src/util/SVG';
+import { SVG_NAMESPACE } from '@abramzog/annotorious/src/util/SVG';
 import { getEllipseSize } from './Ellipse';
 
 export default class EllipseMask {

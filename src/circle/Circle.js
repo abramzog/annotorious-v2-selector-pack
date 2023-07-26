@@ -1,4 +1,4 @@
-import { SVG_NAMESPACE } from '@recogito/annotorious/src/util/SVG';
+import { SVG_NAMESPACE } from '@abramzog/annotorious/src/util/SVG';
 
 /** Shorthand to apply the given (x, y, r) to the SVG shape **/
 const setXYR = (shape, x, y, r) => {  

@@ -1,4 +1,4 @@
-import Tool from '@recogito/annotorious/src/tools/Tool';
+import Tool from '@abramzog/annotorious/src/tools/Tool';
 import RubberbandLine from './RubberbandLine';
 import EditableLine from './EditableLine';
 
