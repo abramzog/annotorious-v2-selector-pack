@@ -1,5 +1,5 @@
 {
-  "name": "@recogito/annotorious-selector-pack",
+  "name": "@abramzog/annotorious-selector-pack",
   "version": "0.5.4",
   "description": "Additional selection tools for Annotorious and the Annotorious OpenSeadragon plugin",
   "main": "dist/annotorious-selector-pack.js",
