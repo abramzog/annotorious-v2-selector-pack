@@ -1,0 +1,31 @@
+<!doctype html><html><head><title>Annotorious | Selector Pack</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@abramzog/annotorious@2.5.9/dist/annotorious.min.css"><script src="https://cdn.jsdelivr.net/npm/@abramzog/annotorious@2.5.9/dist/annotorious.min.js"></script><style>#hallstatt {
+        max-width:100%;
+      }</style><script defer="defer" src="annotorious-selector-pack.js"></script></head><body><p><button id="current-tool">RECT</button></p><img id="hallstatt" src="1280px-Hallstatt.jpg"><script src="annotorious-selector-pack.js"></script><script>window.onload = function() {
+        var anno = Annotorious.init({
+          image: 'hallstatt',
+          allowEmpty: true
+        });
+
+        Annotorious.SelectorPack(anno, {
+          tools: ['circle', 'ellipse', 'rect', 'freehand', 'polygon', 'line']
+        });
+
+        var tools = anno.listDrawingTools();
+        console.log(tools);
+
+        var selected = 0;
+
+        var toolToggle = document.getElementById('current-tool');
+        toolToggle.addEventListener('click', function() {
+          selected += 1;
+          selected = selected % tools.length;
+
+          var tool = tools[selected];
+          toolToggle.innerHTML = tool.toUpperCase();
+          anno.setDrawingTool(tool);
+        });
+
+        anno.on('createAnnotation', function(a) {
+          console.log('create', a);
+        });
+      }</script></body></html>
